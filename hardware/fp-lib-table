@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name qfn88)(type KiCad)(uri ${KIPRJMOD}/qfn88.pretty)(options "")(descr ""))
+  (lib (name pin20x2)(type KiCad)(uri ${KIPRJMOD}/pin20x2.pretty)(options "")(descr ""))
+)
