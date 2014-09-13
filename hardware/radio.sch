@@ -676,13 +676,13 @@ GPIO_12_H
 Text Label 13550 3300 2    60   ~ 0
 GPIO_16_H
 NoConn ~ 10900 3400
-Text Label 6050 4200 2    60   ~ 0
-GPIO_06_H
-Text Label 6050 4300 2    60   ~ 0
-GPIO_12_H
-Text Label 6050 4500 2    60   ~ 0
-GPIO_16_H
 Text Label 6050 4600 2    60   ~ 0
+GPIO_06_H
+Text Label 6050 4500 2    60   ~ 0
+GPIO_12_H
+Text Label 6050 4300 2    60   ~ 0
+GPIO_16_H
+Text Label 6050 4200 2    60   ~ 0
 GPIO_19_H
 Text Label 6050 4400 2    60   ~ 0
 GPIO_13_H
@@ -694,15 +694,15 @@ Text Label 2450 4450 2    60   ~ 0
 GPIO_05_L
 Text Label 2450 4550 2    60   ~ 0
 SPI_CE1_L
-Text Label 3900 4200 2    60   ~ 0
+Text Label 3900 4600 2    60   ~ 0
 GPIO_06_L
-Text Label 3900 4300 2    60   ~ 0
+Text Label 3900 4500 2    60   ~ 0
 GPIO_12_L
 Text Label 3900 4400 2    60   ~ 0
 GPIO_13_L
-Text Label 3900 4500 2    60   ~ 0
+Text Label 3900 4300 2    60   ~ 0
 GPIO_16_L
-Text Label 3900 4600 2    60   ~ 0
+Text Label 3900 4200 2    60   ~ 0
 GPIO_19_L
 Text Label 2250 6150 2    60   ~ 0
 GPIO_05_L
@@ -1226,15 +1226,15 @@ Text GLabel 1900 4450 0    39   BiDi ~ 0
 GPIO_05_L
 Text GLabel 1900 4550 0    39   BiDi ~ 0
 SPI_CE1_L
-Text GLabel 3400 4200 0    39   BiDi ~ 0
+Text GLabel 3400 4600 0    39   BiDi ~ 0
 GPIO_06_L
-Text GLabel 3400 4300 0    39   BiDi ~ 0
+Text GLabel 3400 4500 0    39   BiDi ~ 0
 GPIO_12_L
 Text GLabel 3400 4400 0    39   BiDi ~ 0
 GPIO_13_L
-Text GLabel 3400 4500 0    39   BiDi ~ 0
+Text GLabel 3400 4300 0    39   BiDi ~ 0
 GPIO_16_L
-Text GLabel 3400 4600 0    39   BiDi ~ 0
+Text GLabel 3400 4200 0    39   BiDi ~ 0
 GPIO_19_L
 Text Label 11500 4950 2    60   ~ 0
 ID_SD
@@ -1749,25 +1749,25 @@ Wire Wire Line
 Wire Wire Line
 	5450 3700 7600 3700
 Wire Wire Line
-	5450 4200 7600 4200
-Wire Wire Line
-	5450 4300 7600 4300
-Wire Wire Line
-	5450 4400 7600 4400
+	5450 4600 7600 4600
 Wire Wire Line
 	5450 4500 7600 4500
 Wire Wire Line
-	5450 4600 7600 4600
+	5450 4400 7600 4400
 Wire Wire Line
-	3400 4200 3950 4200
+	5450 4300 7600 4300
 Wire Wire Line
-	3400 4300 3950 4300
+	5450 4200 7600 4200
 Wire Wire Line
-	3400 4400 3950 4400
+	3400 4600 3950 4600
 Wire Wire Line
 	3400 4500 3950 4500
 Wire Wire Line
-	3400 4600 3950 4600
+	3400 4400 3950 4400
+Wire Wire Line
+	3400 4300 3950 4300
+Wire Wire Line
+	3400 4200 3950 4200
 Wire Wire Line
 	4700 5100 4700 5150
 Wire Wire Line
