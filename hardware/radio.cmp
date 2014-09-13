@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sat 13 Sep 2014 11:20:23 PM EST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 14 Sep 2014 03:33:20 AM EST
 
 BeginCmp
 TimeStamp = /541421EC;
@@ -165,14 +165,14 @@ BeginCmp
 TimeStamp = /54179F70;
 Reference = LVIN1;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5417A8CD;
 Reference = LVOUT1;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
@@ -487,7 +487,7 @@ BeginCmp
 TimeStamp = /54176AC9;
 Reference = XMEM1;
 ValeurCmp = XMEM;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x22;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x22;
 EndCmp
 
 BeginCmp
