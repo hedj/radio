@@ -1,4 +1,4 @@
-update=Sun 14 Sep 2014 06:20:12 PM EST
+update=Sun 14 Sep 2014 06:51:15 PM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -65,3 +65,4 @@ LibName30=valves
 LibName31=greenarray-G144A12
 LibName32=nxp-gtl2000
 LibName33=rpi_bplus_gpio
+LibName34=AT45DB041E
