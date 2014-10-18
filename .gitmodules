@@ -1,0 +1,3 @@
+[submodule "hardware/mpcie"]
+	path = hardware/mpcie
+	url = https://github.com/mithro/kicad-mini-pci-express

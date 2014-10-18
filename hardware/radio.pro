@@ -1,4 +1,4 @@
-update=Sun 14 Sep 2014 06:51:15 PM EST
+update=Mon 22 Sep 2014 01:29:11 AM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -66,3 +66,4 @@ LibName31=greenarray-G144A12
 LibName32=nxp-gtl2000
 LibName33=rpi_bplus_gpio
 LibName34=AT45DB041E
+LibName35=mpcie/mpcie
