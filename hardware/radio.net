@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /usr/local/google/home/tansell/foss/hedj/radio/hardware/radio.sch)
-    (date "Sun 02 Nov 2014 01:23:04 AM AEDT")
+    (date "Sun 02 Nov 2014 01:34:50 AM AEDT")
     (tool "Eeschema (2014-jul-16 BZR unknown)-product"))
   (components
     (comp (ref U1)

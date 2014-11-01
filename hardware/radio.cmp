@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 02 Nov 2014 01:22:49 AM AEDT
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 02 Nov 2014 01:35:46 AM AEDT
 
 BeginCmp
 TimeStamp = /5455E7B5;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /545632E1;
 Reference = AN2;
 ValeurCmp = CONN_01X05;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
 EndCmp
 
 BeginCmp
@@ -262,7 +262,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5417AD27;
 Reference = RL1V8;
-ValeurCmp = 500;
+ValeurCmp = 1k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -283,21 +283,21 @@ EndCmp
 BeginCmp
 TimeStamp = /54174EBE;
 Reference = RLED1;
-ValeurCmp = 500;
+ValeurCmp = 1k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541751D0;
 Reference = RLED2;
-ValeurCmp = 500;
+ValeurCmp = 1k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5417528C;
 Reference = RLED3;
-ValeurCmp = 500;
+ValeurCmp = 1k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -465,7 +465,7 @@ EndCmp
 BeginCmp
 TimeStamp = /541436CB;
 Reference = RRST2;
-ValeurCmp = 500;
+ValeurCmp = 1k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
