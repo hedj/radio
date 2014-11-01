@@ -67,3 +67,4 @@ LibName32=nxp-gtl2000
 LibName33=rpi_bplus_gpio
 LibName34=AT45DB041E
 LibName35=mpcie/mpcie
+LibName36=sata
