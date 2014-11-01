@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name qfn88)(type KiCad)(uri ${KIPRJMOD}/qfn88.pretty)(options "")(descr ""))
   (lib (name pin20x2)(type KiCad)(uri ${KIPRJMOD}/pin20x2.pretty)(options "")(descr ""))
+  (lib (name tssop2-44)(type KiCad)(uri ${KIPRJMOD}/tssop2-44.pretty)(options "")(descr ""))
+  (lib (name molex-sata)(type KiCad)(uri ${KIPRJMOD}/molex-sata-67800-5025.pretty)(options "")(descr ""))
 )
