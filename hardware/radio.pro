@@ -1,4 +1,4 @@
-update=Sat 01 Nov 2014 08:19:15 PM AEDT
+update=Sat 01 Nov 2014 10:12:43 PM AEDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -68,3 +68,16 @@ LibName33=rpi_bplus_gpio
 LibName34=AT45DB041E
 LibName35=sata
 LibName36=IS62-65WV51216EALL
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
