@@ -157,19 +157,10 @@ F 3 "" H 4025 3500 60  0000 C CNN
 	1    4025 3500
 	1    0    0    -1  
 $EndComp
-$Comp
-L SATA P1
-U 1 1 54547579
-P 2725 2700
-F 0 "P1" H 2725 3200 50  0000 C CNN
-F 1 "SATA" V 2925 2700 50  0000 C CNN
-F 2 "" H 3075 2700 60  0000 C CNN
-F 3 "" H 3075 2700 60  0000 C CNN
-	1    2725 2700
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	2925 2800 4325 2800
+	2925 2800 4025 2800
+Wire Wire Line
+	4025 2800 4325 2800
 Wire Wire Line
 	2925 2400 3775 2400
 Connection ~ 4175 2100
@@ -182,14 +173,18 @@ Wire Wire Line
 Wire Wire Line
 	3925 2900 3925 2950
 Wire Wire Line
-	3925 2900 4125 2900
+	3925 2900 4025 2900
+Wire Wire Line
+	4025 2900 4125 2900
 Connection ~ 4025 3450
 Wire Wire Line
 	3925 3450 3925 3350
 Wire Wire Line
 	4025 3450 4025 3500
 Wire Wire Line
-	3925 3450 4125 3450
+	3925 3450 4025 3450
+Wire Wire Line
+	4025 3450 4125 3450
 Wire Wire Line
 	4125 3450 4125 3400
 Wire Wire Line
@@ -206,9 +201,13 @@ Wire Wire Line
 Wire Wire Line
 	4175 1500 3775 1500
 Wire Wire Line
-	4175 1450 4175 1550
+	4175 1450 4175 1500
 Wire Wire Line
-	4175 2050 4175 2200
+	4175 1500 4175 1550
+Wire Wire Line
+	4175 2050 4175 2100
+Wire Wire Line
+	4175 2100 4175 2200
 $Comp
 L AGND #PWR5
 U 1 1 54547C12
@@ -238,7 +237,13 @@ $EndComp
 Wire Wire Line
 	2925 2300 3150 2300
 Wire Wire Line
-	3150 2300 3150 3200
+	3150 2300 3150 2900
+Wire Wire Line
+	3150 2900 3150 3000
+Wire Wire Line
+	3150 3000 3150 3100
+Wire Wire Line
+	3150 3100 3150 3200
 Wire Wire Line
 	2925 2900 3150 2900
 Connection ~ 3150 2900
@@ -280,4 +285,15 @@ Text Notes 900  3375 0    60   ~ 0
    GND == GND\n    A+ == 617.ai\n    A- == 117.ai\n   GND == VDD\n    B- == 617.ao\n    B+ == 117.ao\n   GND == GND\nPost A == GND\nPost B == GND
 Text Notes 2275 2125 0    60   ~ 0
 SATA Female Vertical
+$Comp
+L Custom-SATA-Supply P1
+U 1 1 5454D3DC
+P 2725 2700
+F 0 "P1" H 2725 3200 50  0000 C CNN
+F 1 "Custom-SATA-Supply" V 3025 2725 50  0000 C CNN
+F 2 "" H 3075 2700 60  0000 C CNN
+F 3 "" H 3075 2700 60  0000 C CNN
+	1    2725 2700
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
