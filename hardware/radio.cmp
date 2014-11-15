@@ -1,723 +1,605 @@
-Cmp-Mod V01 Genere par PcbNew le Sat 15 Nov 2014 08:52:39 PM AEDT
+Cmp-Mod V01 Created by Cvpcb 0.201411141246+5277~19~ubuntu14.04.1-product   date = Sat 15 Nov 2014 09:16:42 PM AEDT
 
 BeginCmp
-TimeStamp = 00000000
-Path = 
-Reference = @HOLE0;
-ValeurCmp = [NoVal];
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = 00000000
-Path = 
-Reference = @HOLE1;
-ValeurCmp = [NoVal];
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = 00000000
-Path = 
-Reference = @HOLE2;
-ValeurCmp = [NoVal];
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = 00000000
-Path = 
-Reference = @HOLE3;
-ValeurCmp = [NoVal];
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = 54141436
-Path = /5413FE05
-Reference = XRPI1;
-ValeurCmp = RPI_BPLUS_GPIO;
-IdModule  = pin20x2:PIN_20X2;
-EndCmp
-
-BeginCmp
-TimeStamp = 5467179E
-Path = /5419EE51
-Reference = C1;
-ValeurCmp = 100nF;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145B6E
-Path = /5419EEEA
-Reference = C2;
-ValeurCmp = 100nF;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145B78
-Path = /5419EF3C
-Reference = C3;
-ValeurCmp = 100nF;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145B82
-Path = /5457D912
-Reference = C4;
-ValeurCmp = 100nF;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145B8C
-Path = /5457D67A
-Reference = C5;
-ValeurCmp = 100nF;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145C23
-Path = /54174E41
-Reference = D1;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145C5E
-Path = /54174DB2
-Reference = D2;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145C99
-Path = /54174E82
-Reference = D3;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145CA5
-Path = /541471A2
-Reference = J1;
-ValeurCmp = JCLK;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145CB3
-Path = /5415EC37
-Reference = JCEH1;
-ValeurCmp = JCEH;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145CBF
-Path = /54183FCD
-Reference = JEWR1;
-ValeurCmp = JEWR;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145CFA
-Path = /54143401
-Reference = LRST1;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145D4E
-Path = /54174BF8
-Reference = JLED1;
-ValeurCmp = Debug Led Jumpers;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145F42
-Path = /54182548
-Reference = UID1;
-ValeurCmp = 24C16;
-IdModule  = SMD_Packages:SOIC-8-N;
-EndCmp
-
-BeginCmp
-TimeStamp = 541469B7
-Path = /5413DF06
-Reference = ULVL1;
-ValeurCmp = GTL2000;
-IdModule  = SMD_Packages:TSSOP-48;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145FBD
-Path = /541AA84A
-Reference = XRST1;
-ValeurCmp = XRST;
-IdModule  = Connect:GS2;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145F1F
-Path = /541429EA
-Reference = U1;
-ValeurCmp = G144A12;
-IdModule  = qfn88:qfn88;
-EndCmp
-
-BeginCmp
-TimeStamp = 5414D51A
-Path = /54187398
-Reference = XSERDES1;
-ValeurCmp = XSERDES;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
-EndCmp
-
-BeginCmp
-TimeStamp = 54552036
-Path = /54565953
-Reference = AN1;
-ValeurCmp = CONN_01X09;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x09;
-EndCmp
-
-BeginCmp
-TimeStamp = 54551ACE
-Path = /5455E7B5
+TimeStamp = /5455E7B5;
 Reference = AN0;
 ValeurCmp = CONN_01X09;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x09;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551ADE
-Path = /545632E1
+TimeStamp = /54565953;
+Reference = AN1;
+ValeurCmp = CONN_01X09;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x09;
+EndCmp
+
+BeginCmp
+TimeStamp = /545632E1;
 Reference = AN2;
 ValeurCmp = CONN_01X05;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551AEA
-Path = /54573888
+TimeStamp = /54573888;
 Reference = AT0;
 ValeurCmp = Analog Timing;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551AF4
-Path = /5457D5D6
+TimeStamp = /5419EE51;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5419EEEA;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5419EF3C;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5457D912;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5457D67A;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5457D5D6;
 Reference = C6;
 ValeurCmp = 100nF;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551AFE
-Path = /5457D521
+TimeStamp = /5457D521;
 Reference = C7;
 ValeurCmp = 100nF;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551B08
-Path = /5457D457
+TimeStamp = /5457D457;
 Reference = C8;
 ValeurCmp = 100nF;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551B12
-Path = /54182F73
+TimeStamp = /54182F73;
 Reference = CID1;
 ValeurCmp = 100nF;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551B1C
-Path = /5415891D
+TimeStamp = /5415891D;
 Reference = CLVL1;
 ValeurCmp = 100nF;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551B29
-Path = /54205186
+TimeStamp = /54205186;
 Reference = CVIN5V0;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 54671BEF
-Path = /541406A2
+TimeStamp = /541406A2;
 Reference = CVIN33;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551B43
-Path = /5414063B
+TimeStamp = /5414063B;
 Reference = CVOUT1V8;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551B50
-Path = /54205246
+TimeStamp = /54205246;
 Reference = CVOUT3V3;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551B5C
-Path = /545C7A24
+TimeStamp = /54174E41;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54174DB2;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54174E82;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /541471A2;
+Reference = J1;
+ValeurCmp = JCLK;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5415EC37;
+Reference = JCEH1;
+ValeurCmp = JCEH;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /54183FCD;
+Reference = JEWR1;
+ValeurCmp = JEWR;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /545C7A24;
 Reference = JFLA_CE1;
 ValeurCmp = Flash Chip Enable;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551B68
-Path = /541770DF
+TimeStamp = /541770DF;
 Reference = JFLA_WP1;
 ValeurCmp = Flash Write Enable;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551B74
-Path = /545CB9E0
+TimeStamp = /545CB9E0;
 Reference = JGNBT1;
 ValeurCmp = GA SPI Boot Disable;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551BAF
-Path = /545DF6F7
-Reference = LSPI_CE1;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-0805;
+TimeStamp = /54174BF8;
+Reference = JLED1;
+ValeurCmp = Debug Led Jumpers;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
 EndCmp
 
 BeginCmp
-TimeStamp = 5467015D
-Path = /542032DB
-Reference = U5V0t3V3;
-ValeurCmp = NCP1117ST33T3G;
-IdModule  = SMD_Packages:SOT-223;
-EndCmp
-
-BeginCmp
-TimeStamp = 54551C32
-Path = /54172CBF
-Reference = UBOOT1;
-ValeurCmp = AT45DB041E;
-IdModule  = SMD_Packages:SOIC-8-N;
-EndCmp
-
-BeginCmp
-TimeStamp = 54551C3E
-Path = /5414E892
-Reference = XDO1;
-ValeurCmp =  ;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = 54551C73
-Path = /5455BE4F
-Reference = XMEM1;
-ValeurCmp = IS62/65WV51216E(A|B)LL;
-IdModule  = tssop2-44:TSSOPII-44_0.8mmPitch;
-EndCmp
-
-BeginCmp
-TimeStamp = 546719C1
-Path = /541FED67
-Reference = XPWR1;
-ValeurCmp = BARREL_JACK;
-IdModule  = Connect:BARREL_JACK;
-EndCmp
-
-BeginCmp
-TimeStamp = 54551C93
-Path = /541692B0
-Reference = XSPI1;
-ValeurCmp = XSPI;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
-EndCmp
-
-BeginCmp
-TimeStamp = 54551C9F
-Path = /5414E70D
-Reference = XSYNC1;
-ValeurCmp =  ;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = 5466FB1D
-Path = /5417A8CD
+TimeStamp = /5417A8CD;
 Reference = L1V8;
 ValeurCmp = LED;
 IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5466FB58
-Path = /54179F70
+TimeStamp = /54179F70;
 Reference = L3V3;
 ValeurCmp = LED;
 IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5466FB80
-Path = /54140572
-Reference = U3V3t1V8;
-ValeurCmp = NCP1117ST18T3G;
-IdModule  = SMD_Packages:SOT-223;
+TimeStamp = /54143401;
+Reference = LRST1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5414B7A4
-Path = /54183A66
-Reference = RID_SC1;
-ValeurCmp = 3.9k;
-IdModule  = rsmd:R_0603;
+TimeStamp = /545DF6F7;
+Reference = LSPI_CE1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 54145D77
-Path = /54183D35
-Reference = RID_SD1;
-ValeurCmp = 3.9k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145D80
-Path = /54174EBE
-Reference = RLED1;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145D89
-Path = /541751D0
-Reference = RLED2;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145D92
-Path = /5417528C
-Reference = RLED3;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145DB6
-Path = /541A326C
-Reference = RPU4;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145DBF
-Path = /541A32BB
-Reference = RPU5;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145DC8
-Path = /541A330B
-Reference = RPU6;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145DD1
-Path = /541A3360
-Reference = RPU7;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145DDA
-Path = /541A33B6
-Reference = RPU8;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145DE3
-Path = /541A3409
-Reference = RPU9;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145DEC
-Path = /541A345D
-Reference = RPU10;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145DF5
-Path = /541A34B2
-Reference = RPU11;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145DFE
-Path = /541A3508
-Reference = RPU12;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145E07
-Path = /541A355F
-Reference = RPU13;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 5414C0D3
-Path = /541A35B7
-Reference = RPU14;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 5414C0C9
-Path = /541A3610
-Reference = RPU15;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 5414C0DD
-Path = /541A36F6
-Reference = RPU16;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 541492CD
-Path = /541A3751
-Reference = RPU17;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 5414C4ED
-Path = /541A37AD
-Reference = RPU18;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 5414939F
-Path = /541A380A
-Reference = RPU19;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54149395
-Path = /541A38B2
-Reference = RPU20;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 5414B936
-Path = /541A3911
-Reference = RPU21;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145E58
-Path = /541A3971
-Reference = RPU22;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145E61
-Path = /541434AE
-Reference = RRST1;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 5414B6F1
-Path = /5414CA64
-Reference = RSCL1;
-ValeurCmp = 1K8;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145E8E
-Path = /5414C75A
-Reference = RSDA1;
-ValeurCmp = 1K8;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54145EB2
-Path = /54183F03
-Reference = RWR1;
-ValeurCmp = 1K;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54551BBB
-Path = /545CF3C7
+TimeStamp = /545CF3C7;
 Reference = RFLA_CE1;
 ValeurCmp = 1k;
 IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551BC7
-Path = /541780C1
+TimeStamp = /541780C1;
 Reference = RFLA_WP1;
 ValeurCmp = 1k;
 IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551BD3
-Path = /545CD7D1
+TimeStamp = /545CD7D1;
 Reference = RGNBT1;
 ValeurCmp = 1k;
 IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551BDF
-Path = /54573E5B
-Reference = RLB1;
-ValeurCmp = 1K;
+TimeStamp = /54183A66;
+Reference = RID_SC1;
+ValeurCmp = 3.9k;
 IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551BEB
-Path = /54158749
-Reference = RLVL1;
-ValeurCmp = 200k;
+TimeStamp = /54183D35;
+Reference = RID_SD1;
+ValeurCmp = 3.9k;
 IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 54551BF7
-Path = /54573AC9
-Reference = ROE1;
-ValeurCmp = 1K;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54551C03
-Path = /545E260F
-Reference = RSPI_CE1;
-ValeurCmp = 1k;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 54551C0F
-Path = /54573DA3
-Reference = RUB1;
-ValeurCmp = 1K;
-IdModule  = rsmd:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 5466FB64
-Path = /5417AD27
+TimeStamp = /5417AD27;
 Reference = RL1V8;
 ValeurCmp = 1k;
 IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 5467014C
-Path = /54179FCF
+TimeStamp = /54179FCF;
 Reference = RL3V3;
 ValeurCmp = 1.5k;
 IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 54145E6A
-Path = /541436CB
+TimeStamp = /54573E5B;
+Reference = RLB1;
+ValeurCmp = 1K;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54174EBE;
+Reference = RLED1;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541751D0;
+Reference = RLED2;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5417528C;
+Reference = RLED3;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54158749;
+Reference = RLVL1;
+ValeurCmp = 200k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54573AC9;
+Reference = ROE1;
+ValeurCmp = 1K;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A321E;
+Reference = RPU3;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A326C;
+Reference = RPU4;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A32BB;
+Reference = RPU5;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A330B;
+Reference = RPU6;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A3360;
+Reference = RPU7;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A33B6;
+Reference = RPU8;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A3409;
+Reference = RPU9;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A345D;
+Reference = RPU10;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A34B2;
+Reference = RPU11;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A3508;
+Reference = RPU12;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A355F;
+Reference = RPU13;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A35B7;
+Reference = RPU14;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A3610;
+Reference = RPU15;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A36F6;
+Reference = RPU16;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A3751;
+Reference = RPU17;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A37AD;
+Reference = RPU18;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A380A;
+Reference = RPU19;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A38B2;
+Reference = RPU20;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A3911;
+Reference = RPU21;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A3971;
+Reference = RPU22;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541434AE;
+Reference = RRST1;
+ValeurCmp = 1k;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541436CB;
 Reference = RRST2;
 ValeurCmp = 1k;
 IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 5414B92C
-Path = /541A321E
-Reference = RPU3;
+TimeStamp = /5414CA64;
+Reference = RSCL1;
+ValeurCmp = 1K8;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5414C75A;
+Reference = RSDA1;
+ValeurCmp = 1K8;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /545E260F;
+Reference = RSPI_CE1;
 ValeurCmp = 1k;
 IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54573DA3;
+Reference = RUB1;
+ValeurCmp = 1K;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54183F03;
+Reference = RWR1;
+ValeurCmp = 1K;
+IdModule  = rsmd:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541429EA;
+Reference = U1;
+ValeurCmp = G144A12;
+IdModule  = qfn88:qfn88;
+EndCmp
+
+BeginCmp
+TimeStamp = /54140572;
+Reference = U3V3t1V8;
+ValeurCmp = NCP1117ST18T3G;
+IdModule  = SMD_Packages:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = /542032DB;
+Reference = U5V0t3V3;
+ValeurCmp = NCP1117ST33T3G;
+IdModule  = SMD_Packages:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = /54172CBF;
+Reference = UBOOT1;
+ValeurCmp = AT45DB041E;
+IdModule  = SMD_Packages:SOIC-8-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54182548;
+Reference = UID1;
+ValeurCmp = 24C16;
+IdModule  = SMD_Packages:SOIC-8-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5413DF06;
+Reference = ULVL1;
+ValeurCmp = GTL2000;
+IdModule  = SMD_Packages:TSSOP-48;
+EndCmp
+
+BeginCmp
+TimeStamp = /5414E892;
+Reference = XDO1;
+ValeurCmp =  ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5455BE4F;
+Reference = XMEM1;
+ValeurCmp = IS62/65WV51216E(A|B)LL;
+IdModule  = tssop2-44:TSSOPII-44_0.8mmPitch;
+EndCmp
+
+BeginCmp
+TimeStamp = /541FED67;
+Reference = XPWR1;
+ValeurCmp = BARREL_JACK;
+IdModule  = Connect:BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5413FE05;
+Reference = XRPI1;
+ValeurCmp = RPI_BPLUS_GPIO;
+IdModule  = pin20x2:PIN_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /541AA84A;
+Reference = XRST1;
+ValeurCmp = XRST;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54187398;
+Reference = XSERDES1;
+ValeurCmp = XSERDES;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /541692B0;
+Reference = XSPI1;
+ValeurCmp = XSPI;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /5414E70D;
+Reference = XSYNC1;
+ValeurCmp =  ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 EndListe

@@ -1,4 +1,4 @@
-update=Sat 01 Nov 2014 10:12:43 PM AEDT
+update=Sat 15 Nov 2014 08:54:02 PM AEDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -8,26 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=
-UseCmpFile=1
-PadDrill=0.762
-PadDrillOvalY=0.762
-PadSizeH=1.524
-PadSizeV=1.524
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1.5
-ModuleTextSizeH=1.5
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0.2
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
-ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=
@@ -81,3 +61,23 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=
+UseCmpFile=1
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=8.097519999999999
+PadSizeV=8.097519999999999
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1.5
+ModuleTextSizeH=1.5
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.2
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15
