@@ -1109,39 +1109,6 @@ Text Label 11950 4050 2    60   ~ 0
 VCC3V3
 Text Notes 13800 4050 2    60   ~ 0
 RPI Hat ID EEPROM
-$Comp
-L CONN_02X05 XSERDES1
-U 1 1 54187398
-P 2400 1200
-F 0 "XSERDES1" H 2400 1500 50  0000 C CNN
-F 1 "XSERDES" H 2400 900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 2400 0   60  0001 C CNN
-F 3 "" H 2400 0   60  0000 C CNN
-	1    2400 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDD #PWR016
-U 1 1 54189E40
-P 2400 750
-F 0 "#PWR016" H 2400 850 30  0001 C CNN
-F 1 "VDD" H 2400 860 30  0000 C CNN
-F 2 "" H 2400 750 60  0000 C CNN
-F 3 "" H 2400 750 60  0000 C CNN
-	1    2400 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR017
-U 1 1 54189E88
-P 2400 1600
-F 0 "#PWR017" H 2400 1600 30  0001 C CNN
-F 1 "GND" H 2400 1530 30  0001 C CNN
-F 2 "" H 2400 1600 60  0000 C CNN
-F 3 "" H 2400 1600 60  0000 C CNN
-	1    2400 1600
-	1    0    0    -1  
-$EndComp
 Text Label 6400 2700 2    60   ~ 0
 REFCLK1_H
 Text Label 6400 3200 2    60   ~ 0
@@ -2606,70 +2573,6 @@ Wire Wire Line
 Connection ~ 11800 4950
 Connection ~ 12050 4050
 Wire Wire Line
-	2150 1400 2100 1400
-Wire Wire Line
-	2100 1200 2100 1550
-Wire Wire Line
-	2100 1550 2700 1550
-Wire Wire Line
-	2700 1550 2700 1200
-Wire Wire Line
-	2700 1400 2650 1400
-Wire Wire Line
-	2700 1200 2650 1200
-Connection ~ 2700 1400
-Wire Wire Line
-	2150 1200 2100 1200
-Connection ~ 2100 1400
-Wire Wire Line
-	2150 2200 1850 2200
-Wire Wire Line
-	2150 1750 2150 2200
-Wire Wire Line
-	2150 1750 2850 1750
-Wire Wire Line
-	2850 1750 2850 1100
-Wire Wire Line
-	2850 1100 2650 1100
-Wire Wire Line
-	1850 1950 2100 1950
-Wire Wire Line
-	2100 1950 2100 1700
-Wire Wire Line
-	2100 1700 2800 1700
-Wire Wire Line
-	2800 1700 2800 1300
-Wire Wire Line
-	2800 1300 2650 1300
-Wire Wire Line
-	1850 2100 2000 2100
-Wire Wire Line
-	2000 2100 2000 1100
-Wire Wire Line
-	2000 1100 2150 1100
-Wire Wire Line
-	1850 1850 2050 1850
-Wire Wire Line
-	2050 1850 2050 1300
-Wire Wire Line
-	2050 1300 2150 1300
-Wire Wire Line
-	2150 1000 2100 1000
-Wire Wire Line
-	2100 1000 2100 800 
-Wire Wire Line
-	2100 800  2700 800 
-Wire Wire Line
-	2700 800  2700 1000
-Wire Wire Line
-	2700 1000 2650 1000
-Wire Wire Line
-	2400 800  2400 750 
-Connection ~ 2400 800 
-Wire Wire Line
-	2400 1600 2400 1550
-Connection ~ 2400 1550
-Wire Wire Line
 	28275 7550 28275 7500
 Wire Wire Line
 	5800 2700 7600 2700
@@ -3194,4 +3097,8 @@ Wire Wire Line
 	30425 5950 31725 5950
 Wire Wire Line
 	30425 5950 30425 6450
+NoConn ~ 1850 1850
+NoConn ~ 1850 1950
+NoConn ~ 1850 2100
+NoConn ~ 1850 2200
 $EndSCHEMATC
