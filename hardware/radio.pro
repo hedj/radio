@@ -1,6 +1,6 @@
-update=Sat 15 Nov 2014 08:54:02 PM AEDT
+update=Sun 16 Nov 2014 09:48:25 PM AEDT
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -68,8 +68,8 @@ LastNetListRead=
 UseCmpFile=1
 PadDrill=0
 PadDrillOvalY=0
-PadSizeH=8.097519999999999
-PadSizeV=8.097519999999999
+PadSizeH=4
+PadSizeV=4
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
