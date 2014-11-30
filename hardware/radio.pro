@@ -1,6 +1,6 @@
-update=Sun 16 Nov 2014 09:48:25 PM AEDT
+update=Sun 30 Nov 2014 04:54:41 PM AEDT
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
