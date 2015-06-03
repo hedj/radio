@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:sata
 LIBS:antenna-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr User 5827 4134
 encoding utf-8
@@ -215,7 +215,7 @@ F 3 "" H 2475 2260 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2825 1450 1300 1450
+	1300 1450 2825 1450
 Wire Wire Line
 	2000 1350 1300 1350
 Wire Wire Line
@@ -260,8 +260,6 @@ Wire Wire Line
 	4925 1800 4775 1800
 Connection ~ 4775 1800
 Wire Wire Line
-	3525 2100 4375 2100
-Wire Wire Line
 	1300 1550 1600 1550
 Connection ~ 1600 1550
 Wire Wire Line
@@ -278,6 +276,7 @@ Wire Wire Line
 Wire Wire Line
 	3510 960  3510 2100
 Wire Wire Line
-	3510 2100 3530 2100
-Connection ~ 3530 2100
+	3510 2100 4375 2100
+Text Notes 2185 1485 3    60   ~ 0
+Transmitt Antenna
 $EndSCHEMATC

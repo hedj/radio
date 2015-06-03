@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 02 Nov 2014 01:35:46 AM AEDT
+Cmp-Mod V01 Created by Cvpcb 0.201411141246+5277~19~ubuntu14.04.1-product   date = Sat 15 Nov 2014 09:16:42 PM AEDT
 
 BeginCmp
 TimeStamp = /5455E7B5;
@@ -228,280 +228,280 @@ BeginCmp
 TimeStamp = /545CF3C7;
 Reference = RFLA_CE1;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541780C1;
 Reference = RFLA_WP1;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /545CD7D1;
 Reference = RGNBT1;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54183A66;
 Reference = RID_SC1;
 ValeurCmp = 3.9k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54183D35;
 Reference = RID_SD1;
 ValeurCmp = 3.9k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5417AD27;
 Reference = RL1V8;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54179FCF;
 Reference = RL3V3;
 ValeurCmp = 1.5k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54573E5B;
 Reference = RLB1;
 ValeurCmp = 1K;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54174EBE;
 Reference = RLED1;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541751D0;
 Reference = RLED2;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5417528C;
 Reference = RLED3;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54158749;
 Reference = RLVL1;
 ValeurCmp = 200k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54573AC9;
 Reference = ROE1;
 ValeurCmp = 1K;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A321E;
 Reference = RPU3;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A326C;
 Reference = RPU4;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A32BB;
 Reference = RPU5;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A330B;
 Reference = RPU6;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A3360;
 Reference = RPU7;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A33B6;
 Reference = RPU8;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A3409;
 Reference = RPU9;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A345D;
 Reference = RPU10;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A34B2;
 Reference = RPU11;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A3508;
 Reference = RPU12;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A355F;
 Reference = RPU13;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A35B7;
 Reference = RPU14;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A3610;
 Reference = RPU15;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A36F6;
 Reference = RPU16;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A3751;
 Reference = RPU17;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A37AD;
 Reference = RPU18;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A380A;
 Reference = RPU19;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A38B2;
 Reference = RPU20;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A3911;
 Reference = RPU21;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541A3971;
 Reference = RPU22;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541434AE;
 Reference = RRST1;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /541436CB;
 Reference = RRST2;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5414CA64;
 Reference = RSCL1;
 ValeurCmp = 1K8;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5414C75A;
 Reference = RSDA1;
 ValeurCmp = 1K8;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /545E260F;
 Reference = RSPI_CE1;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54573DA3;
 Reference = RUB1;
 ValeurCmp = 1K;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54183F03;
 Reference = RWR1;
 ValeurCmp = 1K;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = rsmd:R_0603;
 EndCmp
 
 BeginCmp
@@ -578,7 +578,7 @@ BeginCmp
 TimeStamp = /541AA84A;
 Reference = XRST1;
 ValeurCmp = XRST;
-IdModule  = Connect:GS2;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
