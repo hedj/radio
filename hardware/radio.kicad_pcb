@@ -6,7 +6,7 @@
     (area 11.306479 15.7 93.2 83.514983)
     (thickness 1.6)
     (drawings 178)
-    (tracks 1845)
+    (tracks 1848)
     (zones 0)
     (modules 90)
     (nets 117)
@@ -39914,7 +39914,7 @@
   (gr_text GND (at 29.5148 70.4596 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "Version: v0.0.0-72-g4a78914" (at 58.9788 57.4548 90) (layer F.SilkS)
+  (gr_text "Version: v0.0.0-76-g58d3f2e" (at 58.9788 57.4548 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1875)))
   )
   (gr_text "Serial No" (at 66.9036 58.2168 90) (layer F.SilkS)
@@ -40230,11 +40230,14 @@
   (gr_line (start 60.94 54.31) (end 60.94 72.31) (layer Edge.Cuts) (width 0.15) (tstamp 48071F8))
   (gr_line (start 62.94 54.31) (end 62.94 72.31) (layer Edge.Cuts) (width 0.15) (tstamp 4807AE8))
 
-  (segment (start 27.0764 68.9356) (end 25.8064 68.9356) (width 0.1524) (layer Bottom) (net 0) (tstamp 55713E8D))
-  (via (at 27.0764 68.9356) (size 0.889) (layers Top Bottom) (net 0))
-  (segment (start 24.5364 68.9356) (end 27.0764 68.9356) (width 0.1524) (layer Top) (net 0) (tstamp 55713E90))
-  (via (at 24.5364 68.9356) (size 0.889) (layers Top Bottom) (net 0))
-  (via (at 25.8064 68.9356) (size 0.889) (layers Top Bottom) (net 0))
+  (via (at 27.432 68.834) (size 0.889) (layers Top Bottom) (net 1))
+  (segment (start 26.0096 68.8848) (end 27.432 68.834) (width 0.6) (layer Bottom) (net 1) (tstamp 55799332))
+  (segment (start 25.9588 68.834) (end 26.0096 68.8848) (width 0.6) (layer Bottom) (net 1) (tstamp 55799331))
+  (via (at 25.9588 68.834) (size 0.889) (layers Top Bottom) (net 1))
+  (segment (start 24.384 68.834) (end 25.9588 68.834) (width 0.6) (layer Top) (net 1) (tstamp 5579932E))
+  (via (at 24.384 68.834) (size 0.889) (layers Top Bottom) (net 1))
+  (segment (start 24.384 66.85) (end 24.384 68.834) (width 0.6) (layer In1.Cu) (net 1))
+  (segment (start 24.384 66.85) (end 42.544856 66.85) (width 0.1524) (layer In1.Cu) (net 1) (tstamp 5579932A))
   (segment (start 23.3475 51.321955) (end 23.3475 54.5225) (width 0.6) (layer Top) (net 1))
   (segment (start 23.3475 54.5225) (end 21.31 56.56) (width 0.6) (layer Top) (net 1))
   (segment (start 21.31 56.56) (end 21.31 56.79) (width 0.6) (layer Top) (net 1))
@@ -40395,7 +40398,7 @@
   (segment (start 44.2 58.826009) (end 44.2 59.64118) (width 0.1524) (layer Top) (net 1))
   (segment (start 42.544856 66.85) (end 45.081993 69.387137) (width 0.1524) (layer In1.Cu) (net 1))
   (via (at 45.081993 70.015754) (size 0.889) (drill 0.635) (layers Top Bottom) (net 1))
-  (segment (start 18.95 66.85) (end 42.544856 66.85) (width 0.1524) (layer In1.Cu) (net 1))
+  (segment (start 18.95 66.85) (end 24.384 66.85) (width 0.1524) (layer In1.Cu) (net 1))
   (segment (start 45.081993 69.387137) (end 45.081993 70.015754) (width 0.1524) (layer In1.Cu) (net 1))
   (segment (start 44.99878 71.71004) (end 44.99878 70.098967) (width 0.1524) (layer Top) (net 1))
   (segment (start 44.99878 70.098967) (end 45.081993 70.015754) (width 0.1524) (layer Top) (net 1))
@@ -43598,7 +43601,7 @@
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (keepout (tracks allowed) (vias allowed) (copperpour not_allowed))
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 23 35.6) (xy 33.8 35.6) (xy 33.8 39.4) (xy 32.5 40.7) (xy 23 40.7)
@@ -43651,7 +43654,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 28.2956 75.0824) (xy 23.5712 75.0824) (xy 23.5712 67.9704) (xy 28.2956 67.9704)
+        (xy 28.2956 75.0824) (xy 23.5712 75.0824) (xy 23.5712 67.9704) (xy 28.2956 67.9704) (xy 28.2956 75.0824)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 28.1686 72.6) (xy 23.6982 72.6) (xy 23.6982 68.0974) (xy 28.1686 68.0974) (xy 28.1686 72.6)
       )
     )
   )
@@ -43662,6 +43670,41 @@
     (polygon
       (pts
         (xy 28.2956 75.0824) (xy 23.5712 75.0824) (xy 23.5712 67.9704) (xy 28.2956 67.9704)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 28.1686 72.6) (xy 23.6982 72.6) (xy 23.6982 68.0974) (xy 28.1686 68.0974) (xy 28.1686 72.6)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 557992FE) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 28.2956 73.2536) (xy 23.5712 73.2536) (xy 23.5712 67.9704) (xy 28.2956 67.9704)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 28.1686 73.1266) (xy 23.6982 73.1266) (xy 23.6982 68.0974) (xy 28.1686 68.0974) (xy 28.1686 73.1266)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Mask) (tstamp 557992FE) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 28.2956 73.2536) (xy 23.5712 73.2536) (xy 23.5712 67.9704) (xy 28.2956 67.9704)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 28.1686 73.1266) (xy 23.6982 73.1266) (xy 23.6982 68.0974) (xy 28.1686 68.0974) (xy 28.1686 73.1266)
       )
     )
   )
