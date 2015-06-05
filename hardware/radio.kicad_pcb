@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 11.306479 15.7 93.2 83.514983)
     (thickness 1.6)
-    (drawings 154)
+    (drawings 157)
     (tracks 1840)
     (zones 0)
     (modules 89)
@@ -1090,12 +1090,12 @@
       (net 45 "Net-(D3-Pad2)"))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer Top) (tedit 5414462A) (tstamp 54145CA5)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer Top) (tedit 5571214F) (tstamp 54145CA5)
     (at 65.9892 48.6156 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /541471A2)
-    (fp_text reference J1 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference J1 (at -0.254 2.4384 270) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_text value JCLK (at 0 0 270) (layer F.SilkS) hide
@@ -2065,12 +2065,12 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer Top) (tedit 5454EFE8) (tstamp 54674264)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer Top) (tedit 55712158) (tstamp 54674264)
     (at 49.5 38.1 180)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5414E892)
-    (fp_text reference XDO1 (at 0 -2.286 180) (layer F.SilkS)
+    (fp_text reference XDO1 (at -0.03 -2.4892 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_text value " " (at 0 0 180) (layer F.SilkS) hide
@@ -3525,6 +3525,15 @@
     (pad " " smd rect (at 0.5969 -0.5969) (size 0.7493 0.7493) (layers F.Paste))
   )
 
+  (gr_text "Version: v0.0.0-72-g4a78914" (at 58.8264 60.8076 90) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.1875)))
+  )
+  (gr_text "Serial No" (at 66.9036 58.2168 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text github.com/hedj/radio (at 56.2864 56.7436 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text IO13 (at 66.02 24.09 90) (layer F.SilkS) (tstamp 557119BF)
     (effects (font (size 0.7 0.7) (thickness 0.16)))
   )
@@ -7208,6 +7217,21 @@
       (pts
         (xy 62.7 17.875) (xy 76.15 17.875) (xy 75.575 18.45) (xy 75.575 21.95) (xy 73.85 23.675)
         (xy 69.9 23.675) (xy 69.125 24.45) (xy 66.75 24.45)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.SilkS) (tstamp 55713CEE) (hatch edge 0.508)
+    (connect_pads (clearance 0.3048))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 73.3552 61.976) (xy 68.2752 61.976) (xy 68.2752 42.5704) (xy 73.3552 42.5704)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 73.2282 61.849) (xy 68.4022 61.849) (xy 68.4022 42.6974) (xy 73.2282 42.6974) (xy 73.2282 61.849)
       )
     )
   )
