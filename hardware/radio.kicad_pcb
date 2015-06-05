@@ -73,7 +73,6 @@
     (pcbplotparams
       (layerselection 0x010f0_80000007)
       (usegerberextensions true)
-      (usegerberattributes true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
