@@ -1,0 +1,105 @@
+########################################################################
+# EEPROM settings text file
+#
+# Edit this file for your particular board and run through eepmake tool,
+# then use eepflash tool to write to attached HAT ID EEPROM 
+#
+# Tools available:
+#  eepmake   Parses EEPROM text file and creates binary .eep file
+#  eepdump   Dumps a binary .eep file as human readable text (for debug)
+#  eepflash  Write or read .eep binary image to/from HAT EEPROM
+#
+########################################################################
+
+########################################################################
+# Vendor info
+
+# 128 bit UUID. If left at zero eepmake tool will auto-generate
+# RFC 4122 compliant UUID
+product_uuid 00000000-0000-0000-0000-000000000000
+
+# 16 bit product id
+product_id 0x0001
+
+# 16 bit product version
+product_ver 0x0001
+
+# ASCII vendor string  (max 255 characters)
+vendor "John Hedditch"
+
+# ASCII product string (max 255 characters)
+product "GreenArrays GA144A12"
+
+
+########################################################################
+# GPIO bank settings, set to nonzero to change from the default.
+# NOTE these setting can only be set per BANK, uncommenting any of
+# these will force the bank to use the custom setting.
+
+# drive strength, 0=default, 1-8=2,4,6,8,10,12,14,16mA, 9-15=reserved
+gpio_drive 0
+
+# 0=default, 1=slew rate limiting, 2=no slew limiting, 3=reserved
+gpio_slew 0
+
+# 0=default, 1=hysteresis disabled, 2=hysteresis enabled, 3=reserved
+gpio_hysteresis 0
+
+# If board back-powers Pi via 5V GPIO header pins:
+# 0 = board does not back-power
+# 1 = board back-powers and can supply the Pi with a minimum of 1.3A
+# 2 = board back-powers and can supply the Pi with a minimum of 2A
+# 3 = reserved
+# If back_power=2 then USB high current mode will be automatically 
+# enabled on the Pi
+back_power 0
+
+########################################################################
+# GPIO pins, uncomment for GPIOs used on board
+# Options for FUNCTION: INPUT, OUTPUT, ALT0-ALT5
+# Options for PULL: DEFAULT, UP, DOWN, NONE
+# NB GPIO0 and GPIO1 are reserved for ID EEPROM so cannot be set
+
+#        GPIO  FUNCTION  PULL
+#        ----  --------  ----
+# SPI
+# To use RPi as slave to boot GreenArrays chip, remove JFLA_CE1 and JGNBT1
+# To use RPi as master for SPI flash programming, jumper JFLA_CE1 and JGNBT1
+setgpio  8     ALT0      UP       # ~SPI_CE0 - 705.3  (pin 81)
+setgpio  9     ALT0      DOWN     # SPI_MISO - 705.17 (pin 85)
+setgpio  10    ALT0      DOWN     # SPI_MOSI - 705.5  (pin 84)
+setgpio  11    ALT0      NONE     # SPI_SCLK - 705.1  (pin 80)
+
+# I2C
+setgpio  2     ALT0      UP       # SDA1     - 300.1  (pin 15) + XSYNC pin 1
+setgpio  3     ALT0      UP       # SCL1     - 300.17 (pin 14) + XSYNC pin 2
+
+# Clock
+setgpio  4     ALT0      NONE     # GPCLK0   -> REFCLK1 - 517.17 (pin 60) + XCLK pin 1
+setgpio  27    ALT0      NONE     # PCM_DOUT -> REFCLK2 - 217.17 (pin 51) + XCLK pin 2
+
+# UART, for UART0 using ALT0, for UART1 use ALT5
+setgpio  14    ALT5      UP       # TXDO     - 708.17 (pin 78) + XDO pin 1
+setgpio  15    ALT5      UP       # RXDO     - 708.1  (pin 79) + XDO pin 2
+
+# GPIO headers
+setgpio  5     INPUT     NONE     # GPIO     - 008.17 (pin 33) if JCEH1 connects pin 2+1
+setgpio  17    INPUT     NONE     # GPIO     - 100.17 (pin 20)
+setgpio  18    INPUT     NONE     # GPIO     - 200.17 (pin 18)
+setgpio  22    INPUT     NONE     # GPIO     - 600.17 (pin 6)
+setgpio  23    INPUT     NONE     # GPIO     - 500.17 (pin 7)
+setgpio  24    INPUT     NONE     # GPIO     - 317.17 (pin 52)
+setgpio  25    INPUT     NONE     # GPIO     - 417.17 (pin 59)
+
+# Extra GPIO provided via the memory bus interface
+setgpio  6     INPUT     NONE     # Memory Bus -  D13 (pin 24)
+setgpio  12    INPUT     NONE     # Memory Bus -  D14 (pin 25)
+setgpio  13    INPUT     NONE     # Memory Bus -  D15 (pin 30)
+setgpio  16    INPUT     NONE     # Memory Bus -  D16 (pin 31)
+setgpio  19    INPUT     NONE     # Memory Bus -  D17 (pin 32)
+
+# NC
+#setgpio  7     INPUT     DEFAULT  # ~SPI_CE1 - 008.17 (pin 33) if JCEH1 connects pin 3+2
+#setgpio 20     INPUT     DEFAULT  # NC
+#setgpio 21     INPUT     DEFAULT  # NC
+#setgpio 26     INPUT     DEFAULT  # NC
