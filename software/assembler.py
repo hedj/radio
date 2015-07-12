@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
-# Generate a bitstream which when loaded by the GA144s SPI node will
-# cause the SPI clock pin to toggle at approximately 1 Hz
+# Preliminaries of assembler for GA144
 
 # John Hedditch, 2015
 
